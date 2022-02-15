@@ -1,0 +1,8 @@
+=> Run pose.py # change the file name if acccordingly by default KneeBend.mp4 shall be taken into account.
+=> pose.py contains poseDetector class which contains the main script.
+=> pass the parameter of your choice(0 if for video cap,file name for video).
+=> an angle less than 130 degrees between knee-hip and knee-ankle when bent is considered to start timer.
+=> timer restarts when angle is greater than 130.
+=> loop doesnot exits untill user terminates program.
+=> test video has been added as test.mp4.
+=> angle has been calculated using numpy for monitoring bend.
